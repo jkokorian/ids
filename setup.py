@@ -36,11 +36,11 @@ if sys.platform == "win32":
       ('NPY_NO_DEPRECATED_API', 'NPY_1_7_API_VERSION')
     ],
     'library_dirs': ['C:/Program Files/IDS/uEye/Develop/Lib'],
-    'libraries': ['ueye_api', 'ueye_tools'],
+    'libraries': ['ueye_api_64', 'ueye_tools'],
     'include_dirs': [
       '.',
       'C:/Program Files/IDS/uEye/Develop/include',
-      'C:/Anaconda3/Lib/site-packages/numpy/core/include'
+      'C:/Anaconda2/Lib/site-packages/numpy/core/include'
     ]
   }
 else:
